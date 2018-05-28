@@ -56,7 +56,6 @@ int draw_pyramid_left(int row, int height)
 int draw_pyramid_right(int row)
 {
     int bricks = row + 1;
-    // printf("spaces : %d  ,", spaces);   //DEBUG
     // printf("bricks : %d\n", bricks);    //DEBUG
     printf("%.*s", bricks, "#######################");
     return 0;
