@@ -7,7 +7,6 @@ int getNthDigit(long long dividend, double n);
 int checkCreditNumValidity(long long creditNum);
 void printCardType(long long creditNum);
 
-
 int main(void)
 {
     long long userCredit = getUserCredit();
@@ -15,6 +14,9 @@ int main(void)
     return 0;
 }
 
+/**
+ * Prints out the type of a card using the given credit card number. Possible types are Amex, Master Card, Visa, and Invalid.
+ */
 void printCardType(long long creditNum)
 {
     if (checkCreditNumValidity(creditNum) == 0)
